@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div> New page coming soon </div>
+    <p> Updates coming soon! </p>
   );
 }
 
