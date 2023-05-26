@@ -1,6 +1,9 @@
 function App() {
   return (
-    <p> Updates coming soon! </p>
+    <div>
+      <p> Updates coming soon! </p>
+      <button className="btnMain">Schedule now!</button>
+    </div>
   );
 }
 
