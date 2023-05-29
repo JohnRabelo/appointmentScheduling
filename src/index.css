@@ -6,6 +6,7 @@ body {
 
 .btnMain{
   color: aqua;
+  background-color: rgb(13, 66, 66);
   outline: 0;
   border: 0;
 }
