@@ -1,6 +1,6 @@
 Title: Appointment Scheduling FrontEnd Web Application;
 Objective: Use forms to store data related to appointments booked; 
-Learing outcomes: Forms and CSS;
+Learning outcomes: Forms and CSS;
 Functionalities: (Coming soon) Login, email confirmation; 
 Run code: npm install dependencies and npm start
 
