@@ -1,0 +1,177 @@
+
+.bannerCont{
+    width: 100vw;
+    max-height: 100vh;
+    position: relative;
+
+}
+
+.bannerCont img{
+    width: 100vw;
+    z-index: 1;
+}
+
+.bookCont{
+    position: absolute;
+    z-index: 1;
+    top: 80vh;
+    left: 50vw;
+    width: 20vw;
+    height: 60vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookCont p{
+    font-size: 120px;
+    color: rgb(64, 138, 138);
+    margin-bottom: 160px;
+}
+
+input[type='date']{
+    background-color: #8a9cad;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+input[type='time']{
+    background-color: #8a9cad;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+select{
+    background-color: #8a9cad;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80px;
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+    margin-bottom: 120px;
+}
+
+::-webkit-calendar-picker-indicator{
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button{
+    background-color: #064985;
+    border: 0;
+    color: white;
+    border-radius: 40px;
+    padding: 10px;
+    width: 400px;
+    font-size: 80px;
+  }
+
+
+  @media (min-width: 200px) and (max-width:1000px) {
+
+    .allCont{
+        max-height: 100vh;
+    }
+
+    .bannerCont{
+        width: 100vw;
+        min-height: 50vh;
+        position: relative;
+    
+    }
+    
+    .bannerCont img{
+        width: 100vw;
+        min-height: 50vh;
+        z-index: 1;
+        object-fit: cover;
+    }
+    
+    .bookCont{
+        position: absolute;
+        z-index: 2;
+        top: 20vh;
+        left: 4vw;
+        width: 60vw;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bookCont p{
+        font-size: 4vw;
+        color: rgb(64, 138, 138);
+        margin-bottom: 40px;
+    }
+    
+    input[type='date']{
+        background-color: #8a9cad;
+        padding: 15px;
+        color: #fff;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4vw;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        height: fit-content;
+    }
+    
+    input[type='time']{
+        background-color: #8a9cad;
+        padding: 15px;
+        color: #fff;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4vw;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+    
+    select{
+        background-color: #8a9cad;
+        padding: 15px;
+        color: #fff;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4vw;
+        border: none;
+        outline: none;
+        border-radius: 5px; 
+        margin-bottom: 4vh;
+        width: 30vw;
+        height: 6vh;
+    }
+    
+    ::-webkit-calendar-picker-indicator{
+        background-color: aliceblue;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    
+    button{
+        background-color: #064985;
+        border: 0;
+        color: white;
+        border-radius: 40px;
+        padding: 10px;
+        width: 20vw;
+        font-size: 4vw;
+        margin-bottom: 2vh;
+      }
+
+}

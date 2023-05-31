@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: aliceblue;
 }
 
 .nvglink{
@@ -18,15 +19,7 @@ body {
     text-align: center;
 }
 
-button{
-  background-color: #064985;
-  border: 0;
-  color: white;
-  border-radius: 10px;
-  padding: 10px;
-  width: 200px;
-  font-size: 28px;
-}
+
 
 
 
