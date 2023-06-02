@@ -1,6 +1,8 @@
 import NewForm from '../components/NewForm'
 import bkNow from '../assets/bookNow1.jpg'
+import bkNowBlank from '../assets/bookNow1Blank.jpg'
 import bkNow2 from '../assets/bookNow2.jpg'
+import bkNow2Blank from '../assets/bookNow2Blank.jpg'
 import bookcl from './Book.module.css'
 import {useNavigate} from 'react-router-dom'
 
@@ -26,7 +28,11 @@ function Bookpg (){
     return(
         <div className={bookcl.allCont}>
             <div className={bookcl.bannerCont}>
-                <img src={bkNow} alt=''/>
+                <picture>
+                    <source media='(max-width:1000px)' srcSet={bkNowBlank} />
+                    <img src={bkNow} alt=''/>
+                </picture>
+                
                 <div className={bookcl.bookCont}>
                     <p>Select a date</p>
                     <input type='date' name='chooseDate' />
@@ -53,7 +59,11 @@ function Bookpg (){
             </div>
 
             <div className={bookcl.bannerCont}>
-                <img src={bkNow2} alt=''/>
+                <picture>
+                    <source media='(max-width: 1000px)' srcSet={bkNow2Blank} />
+                    <img src={bkNow2} alt=''/>
+                </picture>
+                
             </div>
         </div>
     );
