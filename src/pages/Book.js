@@ -34,7 +34,7 @@ function Bookpg (){
                 </picture>
                 
                 <div className={bookcl.bookCont}>
-                    <p> Updates coming soon</p>
+                    <p> Updates coming soon!</p>
                     <p>Select a date</p>
                     <input type='date' name='chooseDate' />
                     <p>Pick a time</p>
